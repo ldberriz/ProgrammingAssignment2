@@ -6,7 +6,7 @@
 makeCacheMatrix <- function(x = matrix()) { # sets x equal to an empty matrix
   I <- NULL                                 # Set the inverse I equal to NULL
   set <- function(y){  # Internal fx to makeCacheMatrix
-    x <<- y     # set function assigns the argument to x.  USes top x outside set()
+    x <<- y     # set function assigns the argument to x.  Uses top x outside set()
     I <<- NULL  # re-set Matrix Inverse to NULL.  Points to the M object outside this fx
   } ## so far noting has happened other than creating objects that live at the top of the heap
   get <- function() x     # get function returns the matrix
