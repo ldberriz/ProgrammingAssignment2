@@ -1,6 +1,6 @@
 ## There are 2 functions: `makeCacheMatrix` creates a matrix function that can
 ## re use its inverse by caching it.  'cacheSolve` computes the inverse of the special
-## "matrix" returned by `makeCacheMatrix`
+## "matrix" returned by `makeCacheMatrix`.
 
 ## This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) { # sets x equal to an empty matrix

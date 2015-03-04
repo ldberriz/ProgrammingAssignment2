@@ -1,3 +1,4 @@
+# makeVEctor fx
 makeVector <- function(x = numeric()) {
   # sets x equal to an empty numeric vector
   m <- NULL
